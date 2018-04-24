@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
  
   s.platform     = :ios
   s.source       = { 
-    :git => "https://github.com/ameerSpincar/openCV-SpinCar.git"
+    :git => "https://github.com/ameerSpincar/opencv.git"
   }
  
   s.prepare_command = "touch Empty.m && mv ios/opencv2.framework/Versions/A/opencv2.txt ios/libopencv2Static.a && mv ios/opencv2.framework/Versions/A/Headers ios/include"
