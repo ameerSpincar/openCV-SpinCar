@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
     :git => "https://github.com/ameerSpincar/openCV-SpinCar.git"
   }
  
-  s.prepare_command = "touch Empty.m && mv ios/opencv2.framework/Versions/A/opencv2 ios/libopencv2Static.a && mv ios/opencv2.framework/Versions/A/Headers ios/include"
+  s.prepare_command = "touch Empty.m && mv ios/opencv2.framework/Versions/A/opencv2.txt ios/libopencv2Static.a && mv ios/opencv2.framework/Versions/A/Headers ios/include"
   s.source_files = 'Empty.m', 'ios/include/**/*.{h,hpp}'
   s.header_mappings_dir = 'opencv2'
   s.preserve_paths = '*'
